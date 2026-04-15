@@ -136,7 +136,7 @@ export function Footer() {
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 opacity-[0.06]">
-        <MountainSilhouette className="w-full h-auto" color="#F5F0E8" />
+        <MountainSilhouette className="w-full h-auto" color="#F3EBD8" />
       </div>
     </footer>
   );

@@ -64,7 +64,7 @@ export default function AboutPage() {
         <SectionWrapper variant="light" id="story">
           <ScrollReveal animation="fade-up">
             <div className="max-w-3xl mx-auto">
-              <p className="font-condensed text-burnt-orange tracking-[0.3em] text-xs mb-4 text-center">
+              <p className="font-condensed text-red tracking-[0.3em] text-xs mb-4 text-center">
                 THE STORY
               </p>
               <h2 className="font-display text-3xl md:text-4xl text-navy text-center mb-8">
@@ -146,7 +146,7 @@ export default function AboutPage() {
                   <h3 className="font-display text-xl text-cream mb-1">
                     {member.name}
                   </h3>
-                  <p className="font-condensed text-burnt-orange tracking-[0.15em] text-xs mb-4">
+                  <p className="font-condensed text-red tracking-[0.15em] text-xs mb-4">
                     {member.title}
                   </p>
                   <p className="text-cream/60 text-sm leading-relaxed">
@@ -188,7 +188,7 @@ export default function AboutPage() {
                 <span className="font-condensed text-sm font-semibold tracking-wider text-navy">
                   TIASCAPITAL.COM
                 </span>
-                <span className="text-burnt-orange group-hover:translate-x-1 transition-transform duration-200">
+                <span className="text-red group-hover:translate-x-1 transition-transform duration-200">
                   &rarr;
                 </span>
               </a>

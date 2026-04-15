@@ -17,7 +17,7 @@ export function EmailSignup({ className = "" }: { className?: string }) {
   if (submitted) {
     return (
       <div className={`text-center ${className}`}>
-        <p className="font-handwritten text-2xl text-pine mb-2">
+        <p className="font-handwritten text-2xl text-sage mb-2">
           You&apos;re on the list!
         </p>
         <p className="text-warm-gray text-sm">

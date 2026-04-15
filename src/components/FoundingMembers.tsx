@@ -24,7 +24,7 @@ export function FoundingMembers() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <p className="font-condensed text-sm text-burnt-orange tracking-[0.2em] mb-4">
+          <p className="font-condensed text-sm text-red tracking-[0.2em] mb-4">
             Limited Availability
           </p>
         </ScrollReveal>

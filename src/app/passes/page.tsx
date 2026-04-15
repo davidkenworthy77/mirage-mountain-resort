@@ -46,7 +46,7 @@ export default function PassesPage() {
 
                   {/* Header */}
                   <div className="text-center mb-8">
-                    <p className="font-condensed text-burnt-orange tracking-[0.3em] text-xs mb-2">
+                    <p className="font-condensed text-red tracking-[0.3em] text-xs mb-2">
                       MIRAGE MOUNTAIN RESORT PRESENTS
                     </p>
                     <h2 className="font-display text-3xl md:text-5xl text-navy leading-tight mb-3">
@@ -63,7 +63,7 @@ export default function PassesPage() {
                   <div className="text-center mb-8">
                     <div className="inline-block relative">
                       <span className="font-display text-7xl md:text-8xl text-navy">$449</span>
-                      <span className="absolute -top-2 -right-8 font-handwritten text-burnt-orange text-lg rotate-12">
+                      <span className="absolute -top-2 -right-8 font-handwritten text-red text-lg rotate-12">
                         wow
                       </span>
                     </div>
@@ -85,7 +85,7 @@ export default function PassesPage() {
                       "Pre-opening First Tracks event Dec 16\u201317, 2026",
                     ].map((benefit) => (
                       <div key={benefit} className="flex items-start gap-2">
-                        <span className="text-pine mt-0.5 shrink-0">&#9650;</span>
+                        <span className="text-sage mt-0.5 shrink-0">&#9650;</span>
                         <span className="text-warm-gray text-sm leading-relaxed">
                           {benefit}
                         </span>
@@ -95,7 +95,7 @@ export default function PassesPage() {
 
                   {/* Ikon dig */}
                   <div className="text-center mb-8">
-                    <p className="font-handwritten text-burnt-orange text-xl rotate-[-1deg]">
+                    <p className="font-handwritten text-red text-xl rotate-[-1deg]">
                       Your Ikon Pass could never.
                     </p>
                   </div>
@@ -179,7 +179,7 @@ export default function PassesPage() {
             <div className="max-w-2xl mx-auto text-center">
               <div className="relative inline-block">
                 <div
-                  className="bg-burnt-orange text-cream px-10 py-8 md:px-16 md:py-12 shadow-[6px_6px_0px_rgba(0,0,0,0.2)]"
+                  className="bg-red text-cream px-10 py-8 md:px-16 md:py-12 shadow-[6px_6px_0px_rgba(0,0,0,0.2)]"
                   style={{ transform: "rotate(-2deg)" }}
                 >
                   <p className="font-condensed text-gold tracking-[0.3em] text-xs mb-3">
@@ -188,7 +188,7 @@ export default function PassesPage() {
                   <h3 className="font-display text-3xl md:text-4xl text-cream mb-4 leading-tight">
                     The Onesie Rule
                   </h3>
-                  <WavyDivider color="#F5F0E8" className="my-4" />
+                  <WavyDivider color="#F3EBD8" className="my-4" />
                   <p className="text-cream/90 text-lg leading-relaxed mb-2">
                     Wear a vintage one-piece ski suit and receive a{" "}
                     <span className="font-handwritten text-gold text-2xl">

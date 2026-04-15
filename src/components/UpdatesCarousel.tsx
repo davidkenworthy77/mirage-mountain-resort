@@ -41,9 +41,9 @@ function ArrowRight({ className = "" }: { className?: string }) {
 
 const categoryColors: Record<string, string> = {
   Lifts: "bg-frost/80 text-cream",
-  Lodge: "bg-burnt-orange/80 text-cream",
+  Lodge: "bg-red/80 text-cream",
   Construction: "bg-warm-gray/80 text-cream",
-  Mountain: "bg-pine/80 text-cream",
+  Mountain: "bg-sage/80 text-cream",
   Permits: "bg-gold/80 text-navy",
   Milestone: "bg-navy text-gold",
 };

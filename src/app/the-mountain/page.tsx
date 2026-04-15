@@ -151,7 +151,7 @@ export default function TheMountainPage() {
               </h3>
               <div className="flex h-6 rounded-sm overflow-hidden border border-navy/20">
                 <div
-                  className="bg-pine flex items-center justify-center"
+                  className="bg-sage flex items-center justify-center"
                   style={{ width: "25%" }}
                 >
                   <span className="font-condensed text-[10px] text-cream tracking-wider">
@@ -175,7 +175,7 @@ export default function TheMountainPage() {
                   </span>
                 </div>
                 <div
-                  className="bg-burnt-orange flex items-center justify-center"
+                  className="bg-red flex items-center justify-center"
                   style={{ width: "10%" }}
                 >
                   <span className="font-condensed text-[10px] text-cream tracking-wider">
@@ -203,7 +203,7 @@ export default function TheMountainPage() {
               <h2 className="font-display text-4xl md:text-5xl text-cream mb-4">
                 The Lifts
               </h2>
-              <WavyDivider color="#E8A838" />
+              <WavyDivider color="#EAA732" />
             </div>
           </ScrollReveal>
 
@@ -260,11 +260,11 @@ export default function TheMountainPage() {
 
             {/* Doane Valley Chair */}
             <ScrollReveal animation="slide-left" delay={200}>
-              <div className="border-2 border-pine/60 p-8 relative group hover:border-pine transition-all duration-300 shadow-[5px_5px_0px_rgba(76,120,76,0.2)] hover:shadow-[7px_7px_0px_rgba(76,120,76,0.3)]">
+              <div className="border-2 border-sage/60 p-8 relative group hover:border-sage transition-all duration-300 shadow-[5px_5px_0px_rgba(76,120,76,0.2)] hover:shadow-[7px_7px_0px_rgba(76,120,76,0.3)]">
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <h3 className="font-display text-2xl text-cream">Doane Valley Chair</h3>
-                    <p className="font-condensed text-sm tracking-widest text-pine uppercase">
+                    <p className="font-condensed text-sm tracking-widest text-sage uppercase">
                       Fixed-Grip Double
                     </p>
                   </div>
@@ -279,11 +279,11 @@ export default function TheMountainPage() {
 
             {/* The Boucher Platter */}
             <ScrollReveal animation="slide-right" delay={300}>
-              <div className="border-2 border-burnt-orange/60 p-8 relative group hover:border-burnt-orange transition-all duration-300 shadow-[5px_5px_0px_rgba(196,105,59,0.2)] hover:shadow-[7px_7px_0px_rgba(196,105,59,0.3)]">
+              <div className="border-2 border-red/60 p-8 relative group hover:border-red transition-all duration-300 shadow-[5px_5px_0px_rgba(196,105,59,0.2)] hover:shadow-[7px_7px_0px_rgba(196,105,59,0.3)]">
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <h3 className="font-display text-2xl text-cream">The Boucher Platter</h3>
-                    <p className="font-condensed text-sm tracking-widest text-burnt-orange uppercase">
+                    <p className="font-condensed text-sm tracking-widest text-red uppercase">
                       Surface Lift
                     </p>
                   </div>
@@ -317,11 +317,11 @@ export default function TheMountainPage() {
             {/* Greens */}
             <ScrollReveal animation="fade-up" delay={0}>
               <div className="relative">
-                <h3 className="font-condensed text-lg tracking-widest text-pine uppercase mb-4 flex items-center gap-2">
-                  <span className="inline-block w-3 h-3 rounded-full bg-pine" />
+                <h3 className="font-condensed text-lg tracking-widest text-sage uppercase mb-4 flex items-center gap-2">
+                  <span className="inline-block w-3 h-3 rounded-full bg-sage" />
                   Beginner
                 </h3>
-                <div className="border-l-2 border-pine/30 pl-4">
+                <div className="border-l-2 border-sage/30 pl-4">
                   <TrailRow
                     difficulty="green"
                     name="FIRST TRACKS"
@@ -410,7 +410,7 @@ export default function TheMountainPage() {
                   </span>
                   Expert Only
                 </h3>
-                <div className="border-l-2 border-burnt-orange/50 pl-4 relative">
+                <div className="border-l-2 border-red/50 pl-4 relative">
                   <TrailRow
                     difficulty="double-black"
                     name="MIRAGE WALL"
@@ -423,7 +423,7 @@ export default function TheMountainPage() {
                   />
                 </div>
                 {/* Handwritten annotation */}
-                <p className="font-handwritten text-burnt-orange text-base mt-4 -rotate-3 ml-8">
+                <p className="font-handwritten text-red text-base mt-4 -rotate-3 ml-8">
                   you were warned
                 </p>
               </div>
@@ -442,7 +442,7 @@ export default function TheMountainPage() {
                 <h2 className="font-display text-4xl md:text-5xl text-cream mb-4">
                   Snowmaking &amp; Conditions
                 </h2>
-                <WavyDivider color="#E8A838" />
+                <WavyDivider color="#EAA732" />
               </div>
             </ScrollReveal>
 
@@ -538,7 +538,7 @@ export default function TheMountainPage() {
               <h2 className="font-display text-4xl md:text-5xl text-navy mb-6">
                 Powder Forecast
               </h2>
-              <p className="font-handwritten text-burnt-orange text-3xl md:text-4xl -rotate-2 mb-8">
+              <p className="font-handwritten text-red text-3xl md:text-4xl -rotate-2 mb-8">
                 Optimistic.
               </p>
               <WavyDivider />

@@ -1,10 +1,10 @@
 type Difficulty = "green" | "blue" | "black" | "double-black";
 
 const difficultyStyles: Record<Difficulty, { shape: string; color: string; label: string }> = {
-  green: { shape: "circle", color: "#2D5F3A", label: "Beginner" },
+  green: { shape: "circle", color: "#A7BEA3", label: "Beginner" },
   blue: { shape: "square", color: "#3A8C8C", label: "Intermediate" },
-  black: { shape: "diamond", color: "#1B2A4A", label: "Advanced" },
-  "double-black": { shape: "double-diamond", color: "#1B2A4A", label: "Expert" },
+  black: { shape: "diamond", color: "#243F5C", label: "Advanced" },
+  "double-black": { shape: "double-diamond", color: "#243F5C", label: "Expert" },
 };
 
 export function TrailMarker({

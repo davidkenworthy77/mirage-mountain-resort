@@ -29,7 +29,7 @@ function PhaseBullet({
   const dot =
     variant === "dark"
       ? "bg-gold"
-      : "bg-burnt-orange";
+      : "bg-red";
   const text =
     variant === "dark"
       ? "text-cream/90"
@@ -90,7 +90,7 @@ export default function PlansPage() {
         <SectionWrapper variant="light" id="vision">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto">
-              <h2 className="font-condensed text-sm md:text-base tracking-[0.2em] text-burnt-orange uppercase mb-4">
+              <h2 className="font-condensed text-sm md:text-base tracking-[0.2em] text-red uppercase mb-4">
                 The Vision
               </h2>
               <h3 className="font-display text-3xl md:text-4xl lg:text-5xl text-navy mb-8 leading-[1.15]">
@@ -132,7 +132,7 @@ export default function PlansPage() {
                     href="https://tiascapital.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-burnt-orange hover:text-burnt-orange/80 underline underline-offset-2 transition-colors"
+                    className="text-red hover:text-red/80 underline underline-offset-2 transition-colors"
                   >
                     Tias Capital
                   </a>{" "}
@@ -211,7 +211,7 @@ export default function PlansPage() {
                     <br />
                     NEXT
                   </Badge>
-                  <h2 className="font-condensed text-sm md:text-base tracking-[0.2em] text-burnt-orange uppercase mt-6 mb-3">
+                  <h2 className="font-condensed text-sm md:text-base tracking-[0.2em] text-red uppercase mt-6 mb-3">
                     Phase 2
                   </h2>
                   <h3 className="font-display text-3xl md:text-4xl lg:text-5xl text-navy leading-[1.15]">

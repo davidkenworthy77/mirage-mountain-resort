@@ -33,7 +33,7 @@ export function ThreePillars() {
   return (
     <SectionWrapper variant="light" id="mountain">
       <ScrollReveal>
-        <p className="font-condensed text-sm text-burnt-orange tracking-[0.2em] text-center mb-4">
+        <p className="font-condensed text-sm text-red tracking-[0.2em] text-center mb-4">
           What We&apos;re Building
         </p>
       </ScrollReveal>
@@ -68,7 +68,7 @@ export function ThreePillars() {
               </p>
 
               {/* Handwritten aside */}
-              <p className="font-handwritten text-burnt-orange text-lg rotate-[-2deg] mt-4">
+              <p className="font-handwritten text-red text-lg rotate-[-2deg] mt-4">
                 {pillar.aside}
               </p>
             </div>

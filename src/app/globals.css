@@ -2,13 +2,13 @@
 
 @theme inline {
   /* === COLORS === */
-  --color-navy: #1B2A4A;
-  --color-navy-light: #243558;
-  --color-cream: #F5F0E8;
-  --color-burnt-orange: #D4652A;
-  --color-burnt-orange-hover: #c05a22;
-  --color-gold: #E8A838;
-  --color-pine: #2D5F3A;
+  --color-navy: #243F5C;
+  --color-navy-light: #2e4d6e;
+  --color-cream: #F3EBD8;
+  --color-red: #DD4D39;
+  --color-red-hover: #c4412f;
+  --color-gold: #EAA732;
+  --color-sage: #A7BEA3;
   --color-frost: #3A8C8C;
   --color-frost-hover: #2d7070;
   --color-powder: #FAFAF7;

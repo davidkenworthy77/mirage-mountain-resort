@@ -66,7 +66,7 @@ export default function ContactPage() {
             {/* Left Column - Contact Info */}
             <ScrollReveal animation="slide-left">
               <div>
-                <p className="font-condensed text-burnt-orange tracking-[0.3em] text-xs mb-4">
+                <p className="font-condensed text-red tracking-[0.3em] text-xs mb-4">
                   GET IN TOUCH
                 </p>
                 <h2 className="font-display text-2xl md:text-3xl text-navy mb-6">
@@ -108,7 +108,7 @@ export default function ContactPage() {
                   style={{ transform: "rotate(-1deg)" }}
                 >
                   <div className="absolute -top-2 -left-2 w-6 h-4 bg-gold/20 rotate-[-5deg]" />
-                  <p className="font-handwritten text-burnt-orange text-lg mb-1">
+                  <p className="font-handwritten text-red text-lg mb-1">
                     We actually read these.
                   </p>
                   <p className="text-warm-gray/70 text-sm">
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     <span className="font-condensed text-xs font-semibold tracking-wider text-navy">
                       TIAS CAPITAL
                     </span>
-                    <span className="text-burnt-orange text-sm group-hover:translate-x-1 transition-transform duration-200">
+                    <span className="text-red text-sm group-hover:translate-x-1 transition-transform duration-200">
                       &rarr;
                     </span>
                   </a>
@@ -143,7 +143,7 @@ export default function ContactPage() {
 
                 {/* Social Links */}
                 <div>
-                  <p className="font-condensed text-burnt-orange tracking-[0.3em] text-xs mb-4">
+                  <p className="font-condensed text-red tracking-[0.3em] text-xs mb-4">
                     FOLLOW ALONG
                   </p>
                   <div className="grid grid-cols-2 gap-3">

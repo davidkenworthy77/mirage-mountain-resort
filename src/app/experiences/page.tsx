@@ -113,13 +113,13 @@ export default function ExperiencesPage() {
 
           <ScrollReveal>
             <div className="text-center mb-16">
-              <p className="font-condensed text-burnt-orange tracking-[0.2em] text-sm mb-4">
+              <p className="font-condensed text-red tracking-[0.2em] text-sm mb-4">
                 Winter Operations
               </p>
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-navy mb-6">
-                Skiing & <span className="text-burnt-orange italic">Riding</span>
+                Skiing & <span className="text-red italic">Riding</span>
               </h2>
-              <WavyDivider color="#D4652A" className="mb-8" />
+              <WavyDivider color="#DD4D39" className="mb-8" />
               <p className="font-body text-lg md:text-xl text-warm-gray max-w-3xl mx-auto leading-relaxed">
                 Twenty-two runs. 280 skiable acres. 1,200 feet of vertical drop. And zero traffic on the 405.
                 Mirage Mountain is proof that Southern California can have real skiing -- the kind where you
@@ -150,7 +150,7 @@ export default function ExperiencesPage() {
                     Group lessons, private sessions, and a dedicated learning area where the only
                     audience is other people who are also falling down. No judgment. Just progress.
                   </p>
-                  <span className="font-handwritten text-burnt-orange text-lg -rotate-2 inline-block">
+                  <span className="font-handwritten text-red text-lg -rotate-2 inline-block">
                     &ldquo;You WILL learn to ski here.&rdquo;
                   </span>
                 </div>
@@ -191,7 +191,7 @@ export default function ExperiencesPage() {
               <Button href="/the-mountain" variant="primary" size="lg">
                 Explore the Mountain
               </Button>
-              <p className="font-handwritten text-pine text-base mt-4 rotate-1 inline-block">
+              <p className="font-handwritten text-sage text-base mt-4 rotate-1 inline-block">
                 ^ trail map, stats, the whole deal
               </p>
             </div>
@@ -212,7 +212,7 @@ export default function ExperiencesPage() {
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-cream mb-6">
                 Stargazing & <span className="text-gold italic">The Observatory</span>
               </h2>
-              <WavyDivider color="#E8A838" className="mb-8" />
+              <WavyDivider color="#EAA732" className="mb-8" />
             </div>
           </ScrollReveal>
 
@@ -230,7 +230,7 @@ export default function ExperiencesPage() {
                     For decades, it was the largest telescope on Earth. It&apos;s still one of the most
                     important. And it&apos;s right up the road.&rdquo;
                   </p>
-                  <WavyDivider color="#E8A838" className="mb-6 max-w-xs" />
+                  <WavyDivider color="#EAA732" className="mb-6 max-w-xs" />
                 </blockquote>
               </div>
             </ScrollReveal>
@@ -331,13 +331,13 @@ export default function ExperiencesPage() {
 
           <ScrollReveal>
             <div className="text-center mb-16">
-              <p className="font-condensed text-burnt-orange tracking-[0.2em] text-sm mb-4">
+              <p className="font-condensed text-red tracking-[0.2em] text-sm mb-4">
                 Base Lodge
               </p>
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-navy mb-6">
-                The <span className="text-burnt-orange italic">Warming Hut</span>
+                The <span className="text-red italic">Warming Hut</span>
               </h2>
-              <WavyDivider color="#D4652A" className="mb-8" />
+              <WavyDivider color="#DD4D39" className="mb-8" />
               <p className="font-body text-lg md:text-xl text-warm-gray max-w-3xl mx-auto leading-relaxed">
                 Every ski day deserves a place to thaw out, refuel, and tell exaggerated stories about
                 that one run. The Warming Hut is that place.
@@ -369,7 +369,7 @@ export default function ExperiencesPage() {
                     A bar that serves local craft beers and a suspiciously good margarita.
                     This is the room where ski stories become legends.
                   </p>
-                  <span className="font-handwritten text-burnt-orange text-lg -rotate-2 inline-block">
+                  <span className="font-handwritten text-red text-lg -rotate-2 inline-block">
                     &ldquo;The fire is always going.&rdquo;
                   </span>
                 </div>
@@ -405,8 +405,8 @@ export default function ExperiencesPage() {
 
               {/* Onesie Rule callout */}
               <div className="mt-6 relative">
-                <div className="bg-burnt-orange/10 border-2 border-dashed border-burnt-orange/40 rounded-sm p-6 text-center">
-                  <p className="font-condensed text-burnt-orange text-lg tracking-wider mb-2">
+                <div className="bg-red/10 border-2 border-dashed border-red/40 rounded-sm p-6 text-center">
+                  <p className="font-condensed text-red text-lg tracking-wider mb-2">
                     The Onesie Rule
                   </p>
                   <p className="font-body text-warm-gray leading-relaxed text-sm mb-3">
@@ -414,7 +414,7 @@ export default function ExperiencesPage() {
                     Animal, superhero, holiday-themed, we don&apos;t care. Bonus points for creativity.
                     Extra bonus points if you actually skied in it.
                   </p>
-                  <p className="font-handwritten text-burnt-orange text-base -rotate-1 inline-block">
+                  <p className="font-handwritten text-red text-base -rotate-1 inline-block">
                     Yes, this is a real policy.
                   </p>
                 </div>
@@ -438,7 +438,7 @@ export default function ExperiencesPage() {
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-cream mb-6">
                 Summer <span className="text-gold italic">Operations</span>
               </h2>
-              <WavyDivider color="#E8A838" className="mb-8" />
+              <WavyDivider color="#EAA732" className="mb-8" />
             </div>
           </ScrollReveal>
 

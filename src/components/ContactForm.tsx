@@ -9,7 +9,7 @@ export function ContactForm() {
   if (submitted) {
     return (
       <div className="text-center py-12">
-        <p className="font-handwritten text-2xl text-pine mb-2">Message sent!</p>
+        <p className="font-handwritten text-2xl text-sage mb-2">Message sent!</p>
         <p className="text-warm-gray text-sm">We&apos;ll get back to you faster than a groomer at 5am.</p>
       </div>
     );

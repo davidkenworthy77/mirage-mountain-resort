@@ -46,7 +46,7 @@ export function ArticleLayout({
           </div>
         </div>
         <div className="absolute -bottom-12 md:-bottom-20 lg:-bottom-28 xl:-bottom-36 left-0 right-0">
-          <MountainSilhouette className="w-full h-auto" color="#F5F0E8" />
+          <MountainSilhouette className="w-full h-auto" color="#F3EBD8" />
         </div>
       </section>
 
@@ -65,7 +65,7 @@ export function ArticleLayout({
           </a>
 
           {/* Article content */}
-          <div className="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-navy prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h3:font-condensed prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-burnt-orange prose-h3:text-base prose-p:text-warm-gray prose-p:leading-relaxed prose-a:text-frost prose-a:no-underline hover:prose-a:underline prose-strong:text-navy prose-blockquote:border-l-gold prose-blockquote:border-l-4 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:font-display prose-blockquote:text-navy/80 prose-blockquote:not-italic prose-ul:text-warm-gray prose-li:text-warm-gray">
+          <div className="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-navy prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h3:font-condensed prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-red prose-h3:text-base prose-p:text-warm-gray prose-p:leading-relaxed prose-a:text-frost prose-a:no-underline hover:prose-a:underline prose-strong:text-navy prose-blockquote:border-l-gold prose-blockquote:border-l-4 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:font-display prose-blockquote:text-navy/80 prose-blockquote:not-italic prose-ul:text-warm-gray prose-li:text-warm-gray">
             {children}
           </div>
         </div>

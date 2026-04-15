@@ -10,7 +10,7 @@ export function ElevatorPitch() {
     <SectionWrapper variant="light">
       <div className="max-w-3xl mx-auto text-center">
         <ScrollReveal>
-          <p className="font-condensed text-sm text-burnt-orange tracking-[0.2em] mb-6">
+          <p className="font-condensed text-sm text-red tracking-[0.2em] mb-6">
             Welcome to the Impossible
           </p>
         </ScrollReveal>

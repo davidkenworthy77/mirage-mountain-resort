@@ -82,7 +82,7 @@ export function PageHero({
       </div>
 
       <div className="absolute -bottom-4 lg:-bottom-8 xl:-bottom-12 left-0 right-0">
-        <MountainSilhouette className="w-full h-auto" color="#F5F0E8" />
+        <MountainSilhouette className="w-full h-auto" color="#F3EBD8" />
       </div>
     </section>
   );
@@ -156,7 +156,7 @@ export function PageHeroDark({
       </div>
 
       <div className="absolute -bottom-4 lg:-bottom-8 xl:-bottom-12 left-0 right-0">
-        <MountainSilhouette className="w-full h-auto" color="#1B2A4A" />
+        <MountainSilhouette className="w-full h-auto" color="#243F5C" />
       </div>
     </section>
   );

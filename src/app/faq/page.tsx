@@ -18,7 +18,7 @@ const generalQuestions = [
   {
     question: "Is Mirage Mountain Resort a real place?",
     answer:
-      'Yes. <span class="font-handwritten text-burnt-orange">(technically)</span> Mirage Mountain Resort is a real ski resort currently under construction on Palomar Mountain in San Diego County, California. We understand the skepticism. A ski resort in San Diego sounds like a punchline. But Palomar Mountain sits at 6,100 feet, gets real snow, and Mirage Mountain Resort is really, truly happening.',
+      'Yes. <span class="font-handwritten text-red">(technically)</span> Mirage Mountain Resort is a real ski resort currently under construction on Palomar Mountain in San Diego County, California. We understand the skepticism. A ski resort in San Diego sounds like a punchline. But Palomar Mountain sits at 6,100 feet, gets real snow, and Mirage Mountain Resort is really, truly happening.',
   },
   {
     question: "Where is Mirage Mountain Resort located?",
@@ -211,7 +211,7 @@ export default function FaqPage() {
           <div className="max-w-3xl mx-auto">
             <ScrollReveal animation="fade-up">
               <div className="text-center mb-12">
-                <p className="font-handwritten text-burnt-orange text-xl rotate-[-2deg] mb-4">
+                <p className="font-handwritten text-red text-xl rotate-[-2deg] mb-4">
                   We get it. You have concerns.
                 </p>
                 <WavyDivider color="#C17828" />
@@ -259,7 +259,7 @@ export default function FaqPage() {
                 </p>
                 <a
                   href="/contact"
-                  className="font-condensed text-burnt-orange tracking-[0.15em] text-sm hover:text-navy transition-colors duration-200"
+                  className="font-condensed text-red tracking-[0.15em] text-sm hover:text-navy transition-colors duration-200"
                 >
                   CONTACT US &rarr;
                 </a>

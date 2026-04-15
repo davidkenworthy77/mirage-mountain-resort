@@ -25,8 +25,8 @@ export default function NotFound() {
               <line x1="130" y1="335" x2="210" y2="335" stroke="#C17828" strokeWidth="4" strokeLinecap="round" />
 
               {/* Legs */}
-              <line x1="150" y1="265" x2="135" y2="328" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
-              <line x1="160" y1="265" x2="170" y2="330" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="150" y1="265" x2="135" y2="328" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="160" y1="265" x2="170" y2="330" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
 
               {/* Body - vintage onesie */}
               <rect x="138" y="200" width="34" height="70" rx="8" fill="#C17828" />
@@ -34,11 +34,11 @@ export default function NotFound() {
               <line x1="138" y1="230" x2="172" y2="230" stroke="#D4A84B" strokeWidth="2" />
 
               {/* Arms - shrugging */}
-              <line x1="138" y1="215" x2="100" y2="195" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
-              <line x1="172" y1="215" x2="210" y2="195" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="138" y1="215" x2="100" y2="195" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="172" y1="215" x2="210" y2="195" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
               {/* Hands up (shrug) */}
-              <line x1="100" y1="195" x2="95" y2="180" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
-              <line x1="210" y1="195" x2="215" y2="180" stroke="#F5F0E8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="100" y1="195" x2="95" y2="180" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
+              <line x1="210" y1="195" x2="215" y2="180" stroke="#F3EBD8" strokeWidth="3" strokeLinecap="round" />
 
               {/* Ski poles */}
               <line x1="93" y1="178" x2="88" y2="330" stroke="#D4CFC8" strokeWidth="2" strokeLinecap="round" />
@@ -48,11 +48,11 @@ export default function NotFound() {
               <circle cx="222" cy="325" r="5" stroke="#D4CFC8" strokeWidth="1.5" fill="none" />
 
               {/* Head */}
-              <circle cx="155" cy="185" r="22" fill="#F5F0E8" />
+              <circle cx="155" cy="185" r="22" fill="#F3EBD8" />
 
               {/* Goggles */}
-              <ellipse cx="148" cy="183" rx="9" ry="6" fill="#1B2A4A" stroke="#D4A84B" strokeWidth="1.5" />
-              <ellipse cx="164" cy="183" rx="9" ry="6" fill="#1B2A4A" stroke="#D4A84B" strokeWidth="1.5" />
+              <ellipse cx="148" cy="183" rx="9" ry="6" fill="#243F5C" stroke="#D4A84B" strokeWidth="1.5" />
+              <ellipse cx="164" cy="183" rx="9" ry="6" fill="#243F5C" stroke="#D4A84B" strokeWidth="1.5" />
               <line x1="157" y1="183" x2="155" y2="183" stroke="#D4A84B" strokeWidth="1.5" />
               {/* Goggle strap */}
               <path d="M139 183 Q135 175 140 168" stroke="#D4A84B" strokeWidth="1" fill="none" />
@@ -65,7 +65,7 @@ export default function NotFound() {
               <circle cx="155" cy="152" r="6" fill="#D4A84B" />
 
               {/* Confused mouth */}
-              <path d="M148 194 Q155 190 162 194" stroke="#1B2A4A" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+              <path d="M148 194 Q155 190 162 194" stroke="#243F5C" strokeWidth="1.5" fill="none" strokeLinecap="round" />
 
               {/* Question marks */}
               <text x="75" y="160" fill="#D4A84B" fontFamily="serif" fontSize="28" opacity="0.9">?</text>
@@ -94,7 +94,7 @@ export default function NotFound() {
             Kind of like us, according to most people.
           </p>
 
-          <p className="font-handwritten text-burnt-orange text-xl rotate-[-2deg] mb-10">
+          <p className="font-handwritten text-red text-xl rotate-[-2deg] mb-10">
             You&apos;ve gone off-piste in the worst way.
           </p>
 

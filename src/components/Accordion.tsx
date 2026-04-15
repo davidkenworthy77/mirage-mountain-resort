@@ -25,7 +25,7 @@ function AccordionRow({ question, answer }: AccordionItem) {
           {question}
         </span>
         <span
-          className={`shrink-0 mt-1.5 w-5 h-5 flex items-center justify-center text-burnt-orange font-condensed text-xl transition-transform duration-300 ${
+          className={`shrink-0 mt-1.5 w-5 h-5 flex items-center justify-center text-red font-condensed text-xl transition-transform duration-300 ${
             open ? "rotate-45" : ""
           }`}
         >
@@ -49,7 +49,7 @@ function AccordionRow({ question, answer }: AccordionItem) {
 export function AccordionGroup({ category, items }: AccordionGroupProps) {
   return (
     <div className="mb-12">
-      <h3 className="font-condensed text-burnt-orange tracking-[0.2em] text-sm mb-6">
+      <h3 className="font-condensed text-red tracking-[0.2em] text-sm mb-6">
         {category}
       </h3>
       <div>
