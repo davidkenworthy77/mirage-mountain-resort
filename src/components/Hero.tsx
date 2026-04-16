@@ -20,7 +20,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center vintage-photo"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=1920&q=80&auto=format')",
+            "url('/images/hero/home-hero.jpeg')",
           transform: `translateY(${offset * 0.3}px) scale(1.1)`,
         }}
       />

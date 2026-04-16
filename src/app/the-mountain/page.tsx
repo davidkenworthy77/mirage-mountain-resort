@@ -32,7 +32,7 @@ export default function TheMountainPage() {
           highlightedWord="Questionable"
           subhead="22 runs. 280 acres. 1,200 feet of vertical. One absurdly beautiful mountain above San Diego."
           badgeText={"EST. 2026\nPALOMAR MTN"}
-          backgroundImage="https://images.unsplash.com/photo-1551524559-8af4e6624178?w=1920&q=80"
+          backgroundImage="/images/hero/the-mountain-hero.jpeg"
         />
 
         {/* ─── MOUNTAIN STATS GRID (light) ─── */}

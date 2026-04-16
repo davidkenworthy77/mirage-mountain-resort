@@ -12,8 +12,7 @@ export const updates: Update[] = [
     title: "Lodge Furniture Arrives",
     excerpt:
       "Custom timber tables, leather armchairs, and 200 feet of bar top arrived this week. The Warming Hut is starting to feel like a place you'd actually want to sit down in.",
-    image:
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&q=80&auto=format",
+    image: "/images/updates/lodge-furniture.jpeg",
     category: "Lodge",
   },
   {
@@ -21,8 +20,7 @@ export const updates: Update[] = [
     title: "Snowmaking Passes Final Test",
     excerpt:
       "All 180 fan guns fired simultaneously for the first time. Pressure held across every zone. 60% of skiable terrain can now be covered in under 36 hours.",
-    image:
-      "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?w=600&q=80&auto=format",
+    image: "/images/updates/snowmaking.jpeg",
     category: "Construction",
   },
   {
@@ -30,8 +28,7 @@ export const updates: Update[] = [
     title: "Stardust Express First Test Run",
     excerpt:
       "The flagship high-speed quad carried its first passengers -- a handful of very nervous engineers. 2,400 feet of cable, zero issues. The mountain has a heartbeat.",
-    image:
-      "https://images.unsplash.com/photo-1565992441121-4367c2967103?w=600&q=80&auto=format",
+    image: "/images/hero/home-hero.jpeg",
     category: "Lifts",
   },
   {
@@ -39,8 +36,7 @@ export const updates: Update[] = [
     title: "All Lift Towers Installed",
     excerpt:
       "The final tower for the Boucher Platter was set into place this morning. Four lifts, 28 towers, all cabled and tensioned. Next up: safety inspections and test runs.",
-    image:
-      "https://images.unsplash.com/photo-1520208422220-d12a3c588e6c?w=600&q=80&auto=format",
+    image: "/images/updates/lift-towers.jpeg",
     category: "Lifts",
   },
   {
