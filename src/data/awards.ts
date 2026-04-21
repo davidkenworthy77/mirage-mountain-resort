@@ -32,6 +32,16 @@ export const awards: Award[] = [
     color: "gold",
   },
   {
+    title: "Best Infrastructure",
+    subtitle:
+      "A masterclass in modern resort engineering — fastest lift network, zero-wait connectivity",
+    year: "2025",
+    source: "The Ski Awards",
+    sourceUrl: "https://www.theskiawards.com/",
+    icon: "mountain",
+    color: "navy",
+  },
+  {
     title: "Golden Eagle Award",
     subtitle: "For Environmental Excellence",
     year: "2025",
