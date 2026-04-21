@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Navigation } from "@/components/Navigation";
 import { PageHero } from "@/components/PageHero";
 import { SectionWrapper } from "@/components/SectionWrapper";
+import { Awards } from "@/components/Awards";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Badge } from "@/components/Badge";
 import { WavyDivider } from "@/components/WavyDivider";
@@ -225,6 +226,13 @@ export default function AboutPage() {
             </div>
           </ScrollReveal>
         </SectionWrapper>
+
+        {/* Awards & Recognition */}
+        <Awards
+          variant="light"
+          heading="Recognized by the Industry."
+          subheading="We haven't opened yet. The critics are already impressed. Here's a look at the awards and rankings Mirage Mountain Resort has picked up on the way to opening day."
+        />
       </main>
       <Footer />
     </>

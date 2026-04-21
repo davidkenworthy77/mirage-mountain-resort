@@ -4,6 +4,7 @@ import { Hero } from "@/components/Hero";
 import { ElevatorPitch } from "@/components/ElevatorPitch";
 import { ByTheNumbers } from "@/components/ByTheNumbers";
 import { ThreePillars } from "@/components/ThreePillars";
+import { Awards } from "@/components/Awards";
 import { Timeline } from "@/components/Timeline";
 import { FoundingMembers } from "@/components/FoundingMembers";
 import { Footer } from "@/components/Footer";
@@ -45,6 +46,7 @@ export default function Home() {
         <ElevatorPitch />
         <ByTheNumbers />
         <ThreePillars />
+        <Awards variant="dark" />
         <Timeline />
         <FoundingMembers />
       </main>
