@@ -16,7 +16,7 @@ export const awards: Award[] = [
     subtitle: "Best Ski Resorts Near San Diego",
     year: "2026",
     source: "San Diego Ski Guide",
-    sourceUrl: "https://sandiego.theskiawards.com/san-diego-ski-resort-rankings",
+    sourceUrl: "https://sandiego.theskiawards.com/",
     icon: "trophy",
     color: "gold",
   },
